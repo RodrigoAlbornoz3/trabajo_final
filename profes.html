@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Proyectos de Título</title>
+        <link href="css/style.css" rel="stylesheet" />
+        <style>
+            .idea{
+                weith:100%;
+                clear:both;
+                margin-left: -0.75rem;
+            }
+            .idea img{ 
+                width:100%; 
+                height: auto; 
+            } 
+            .esconde{
+                display:none;
+            }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <a href="index.html">Resumen <span>de Proyectos de Título</span></a>
+            <a href="profes.html" class="active"><span>Proyectos por </span>Profesor(a) Guía</a>
+            <a href="titulos.html"><span>Proyectos por </span>Título Profesional</a>
+            <a href="semestres.html"><span>Proyectos por </span>Semestre</a>
+        </nav>
+        <header>
+            <h1>Proyectos por Profesor(a) Guía</h1>
+            <select>
+                <option value="Mendez Olivares, Ivan" selected>María Paz Morales Mujica</option>
+                <option value="Lares Lopez, Lorna">Paola De la Sotta Lazzerini</option>
+            </select>
+        </header>
+        <main>
+		
+		<div class="info" id= "primera">
+		<div class="medio"><img src= "viz/imagen1_mendez.png"></div>
+		<div class="medio">
+		<h1>Ivan Mendez Olivares</h1>
+		<p>Contacto:ianmendez@u.uchile.cl</p>
+		
+		<h3>Prof. Asociado</h3>
+		<p>Categoria Académia Docente</p>
+		<p>Departamento de Diseño, Facultad de Arquitectura y Urbanismo</p>
+		<p>Grado/titulo: Artes con mencion y teoría del arte, Doctor creatividad aplicada</p>
+		<p>Jornada: 18 horas</p>
+		<p>Su enfoque se centra en la relación entre el diseño y </p>
+		</div>
+		
+		<div class="completo">
+		<h3>Asignaturas que imparte en Diseño.</h3>
+		<object data="viz/multiset_bar_chart.svg" type="image/svg-xml"></object>
+		</div>
+		
+		<div class="completo"><img src= "viz/profe1/4ramos.png"></div>
+		
+		<div class="medio">
+		<p>Áreas prioritarias en investigación y creación en la Facultad de Arquitectura y urbanismo.</p>
+			<ul>
+				<li>Área prioritaria 5: Creación, innovación proyectual, y desarrollos tecnológicos.</li>
+				<li>ÁÁrea prioritaria 7: Culturas visuales, materiales-inmateriales y mediales.</li>
+			</ul>
+		<p>Líneas de investigación del departamento de Diseño.</p>
+			<ul>
+				<li>Materiales, tecnólogias y procesos.</li>
+				<li>Morfologia, Percepción y Color.</li>
+                <li>Identidad y patrimonio.</li>
+			</ul>
+	
+		<p>Énfasis del Ciclo 3 del Plan de Estudios.</p>
+			<ul>
+				<li>Investigación</li>
+				<li>Creación</li>
+			</ul>
+		
+		</div>
+		
+		<div class="medio"><img src= "viz/imagen6_mendez.png"></div>
+		
+		<div class="completo"><img src= "viz/imagen7_mendez.png"></div>
+		
+		<div class="completo"><img src= "viz/imagen8_mendez.png"></div>
+		
+		</div>
+		
+		<div class="info esconde" id= "segunda">
+		
+		
+		<div class="medio"><img src= "viz/imagen_1_lorna.png"></div>
+		
+		<div class="medio"><img src= "viz/imagen_2_lorna.png"></div>
+		
+		<div class="completo"><img src= "viz/imagen_3_lorna.png"></div>
+		
+		<div class="completo"><img src= "viz/imagen_4_lorna.png"></div>
+		
+		<div class="medio"><img src= "viz/imagen_5_lorna.png"></div>
+		<div class="medio"><img src= "viz/imagen_6_lorna.png"></div>
+		
+		<div class="completo"><img src= "viz/imagen_7_lorna.png"></div>
+		
+		<div class="completo"><img src= "viz/imagen_8_lorna.png"></div>
+		
+		</div>
+		
+            <div class="doble">
+                 
+                    <img src="viz/prototipo-2.webp" id="segunda" class="esconde"/> 
+                <div class="uno">
+                    <p>¿Cómo se relaciona su nota aprobatoria previa, de Proyecto de Título I, con la nota definida por la comisión examinadora de Proyecto de Título II?</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 65 65" id="slope"></svg>
+                </div>
+                <div class="otro">
+                    <p>¿Qué parte de las inscripciones en la asignatura de Proyecto de Título II con <span id="profe"></span> se han convertido en Exámenes de Título aprobados?</p>
+                    <div id="donnut"></div>
+                </div>    
+                <hr/>
+            </div>
+            <h2></h2>
+            <table>
+                <thead>
+                    <th>Egresado/a</th>
+                    <th>Título</th>
+                    <th>Semestre</th>
+                    <th>Proyecto</th>
+                    <th>Nota</th>
+                </thead>
+                <tbody id="mencion"></tbody>
+            </table>
+            <div id="palabreo"></div>           
+        </main>
+        <footer>
+            <p>
+                <small>
+                    <a href="https://github.com/profesorfaco/troncal" target="_blank">Diseño y visualización de información</a> | Este ejercicio, preparado por
+                    <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/profesorfaco">profesorfaco</a>, es publicado bajo licencia
+                    <a href="https://creativecommons.org/licenses/by-nc/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer">CC BY-NC 4.0</a>
+                </small>
+            </p>
+        </footer>
+        <script src="js/profes.js"></script>
+    </body>
+</html>
