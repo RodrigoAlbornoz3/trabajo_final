@@ -1,26 +1,26 @@
 <svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 610" width="1120" height="610">
     <title>Multi_set_bar_chart</title>
     <style>
+         @import url('https://fonts.googleapis.com/css2?family=Roboto');
         g#viz {
             font-size: 14px;
             fill: #000000;
-            font-family: Helvetica, Arial, sans-serif;
-        }
+         font-family: "Roboto", sans-serif }
 
         g#reprueban {
             fill: #9b9b9b;
         }
 
         g#aprueban {
-            fill: #189af6;
+            fill: #1F5592;
         }
 
         g#industriales {
-            fill: #125389;
+            fill: #DA4F40;
         }
 
         g#sinmencion {
-            fill: #00c3ff;
+            fill: #F7CE65;
         }
 
         .rayita {

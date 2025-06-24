@@ -1,6 +1,7 @@
 <svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 410">
     <title>box_plot_2</title>
     <style>
+         @import url('https://fonts.googleapis.com/css2?family=Roboto');
         tspan {
             white-space: pre;
         }
@@ -11,24 +12,23 @@
         .t1 {
             font-size: 11px;
             fill: #000000;
-            font-family: Helvetica, Arial, sans-serif;
-        }
+        font-family: "Roboto", sans-serif }
         .t2 {
             font-size: 11px;
             fill: #000000;
-            font-family: Helvetica, Arial, sans-serif;
+            font-family: Roboto, sans-serif;
         }
         .s3 {
             fill: #000000;
-            stroke: #125389;
+            stroke: #DA4F40;
             stroke-dasharray: 4;
         }
         .s4 {
             fill: #000000;
-            stroke: #125389;
+            stroke: #DA4F40;
         }
         .s5 {
-            fill: #125389;
+            fill: #DA4F40;
         }
         .s6 {
             fill: #000000;
@@ -36,37 +36,37 @@
         }
         .s7 {
             fill: #000000;
-            stroke: #125389;
+            stroke: #DA4F40;
             stroke-width: 2;
         }
         .s8 {
             fill: #000000;
-            stroke: #189af6;
+            stroke: #1F5592;
             stroke-dasharray: 4;
         }
         .s9 {
             fill: #000000;
-            stroke: #189af6;
+            stroke: #1F5592;
         }
         .s10 {
-            fill: #189af6;
+            fill: #1F5592;
         }
         .s11 {
             fill: #000000;
-            stroke: #189af6;
+            stroke: #1F5592;
             stroke-width: 2;
         }
         .s12 {
             fill: #000000;
-            stroke: #00c3ff;
+            stroke: #F7CE65;
             stroke-dasharray: 4;
         }
         .s13 {
             fill: #000000;
-            stroke: #00c3ff;
+            stroke: #F7CE65;
         }
         .s14 {
-            fill: #00c3ff;
+            fill: #F7CE65;
         }
     </style>
     <g id="viz">
